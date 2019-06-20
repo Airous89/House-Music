@@ -1,0 +1,107 @@
+*{
+    margins: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  }
+  
+  header{
+    width: 95%;
+    border: 1px solid gray;
+    display:flex;
+    padding: 25px 50px;
+    justify-content: space-between;
+    background-color: rgb(253, 253, 253);
+    z-index: 1
+  }
+  
+  .logo{
+    height:90px;
+    width: 110px;
+    border: 1px solid gray;
+    text-align:center;
+    line-height: 80px;
+  }
+  
+  header ul li{
+    padding: 10px 15px;
+    list-style: none;
+    text-align: center;
+    border: 1px solid grey;
+  }
+  
+  header ul{
+    margin: 40px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  main{
+    position: relavtive;
+    top: 200px;
+    width: 100%;
+  }
+  
+  .quizStart{
+    display: block;
+    align-items: center;
+  }
+  
+  h1{
+    text-align: center; 
+  }
+  
+  .quizStart button{
+    padding: 10px;
+    border: none;
+    background-color:palevioletred;
+    color: gold;
+    font-size: 17px;
+    text-transform: capitalize;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  .quizStart button:hover{
+    background-color: black;
+  }
+  
+  main div{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .questionAnswerForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .questionAnswerForm h2 {
+    display: inherit;
+  }
+  
+  .questionAnswerForm button{
+    padding: 10px;
+    border: none;
+    background-color:palevioletred;
+    color: gold;
+    font-size: 17px;
+    text-transform: capitalize;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  .questionAnswerForm button:hover{
+    background-color: black;
+  }
+  

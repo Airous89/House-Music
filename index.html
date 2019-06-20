@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>House Music Quiz</title>
+    <meta name="description" content="Test your knowlage on House music ">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="data.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">logo</div>
+      <ul>
+        <li>Question: <span 
+        class="questionNumber">0</span>/10</li>
+        <li>Score: <span class="Score">0</span></li>
+      </ul>
+    </header>
+    <main>
+      <div class="quizStart">
+        <h1> In the Beginning there was Jack and Jack had a quiz.</h1>
+        <button type="button" class="startButton">Welcome my House!</button>
+      </div>
+    <section>
+      <div class="questionAnswerForm">
+        <h2>Question</h2>
+          <input type ='radio' required>potential answer here 1 <br/></input>
+          <input type ='radio' required>potential answer here 2 <br/></input>
+          <input type ='radio' required>potential answer here 3 <br/></input>
+          <input type ='radio' required>potential answer here 4 <br/></input>
+          <button type="button" class="submitButton">Submit</button>
+      </div>
+    </section>
+
+    <section class='quizResultReset'>
+        <div class="quizResults">
+          <h2>Good Job! / So Sorry</h2>
+          <p>This will ask the user to click the button below to restart the quiz</p>
+          <button class="restartQuiz">Next Track!</button>
+        </div>
+    </section>
+
+    <section class='quizResultReset'>
+        <div class="quizResults">
+          <h2>This will tell the user how many questions they got right</h2>
+          <p>This will ask the user to click the button below to restart the quiz</p>
+          <button class="restartQuiz">Click me to try again</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
